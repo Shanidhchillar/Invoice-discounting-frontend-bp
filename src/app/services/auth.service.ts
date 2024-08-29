@@ -17,9 +17,11 @@ export class AuthService {
 
   email: string = "";
   /*** LOCAL BACKEND ***/
-  baseURL = "http://localhost:8000";
+  // baseURL = "http://localhost:8000";
   /*** PRODUCTION BACKEND ***/
   //baseURL = "http://54.254.242.153:8000";
+  /*** UAT BACKEND ***/
+  baseURL = "http://clientchillar.com:8111";
 
   //API Methods
 
